@@ -4,11 +4,11 @@ import "fmt"
 
 func main() {
 
-	var conferenceName string = "GO CONFERENCE"
+	var conferenceName string = "GO CONFERENCE TX"
 	const conferenceTicket = 50
 	var remainingTicket int = 50
 
-	fmt.Printf("Welcome to %v booking application\n", conferenceName)
+	fmt.Printf("Welcoming you to %v booking application\n", conferenceName)
 	fmt.Printf("We have total of %v tickets and %v are still remaining\n", conferenceName, remainingTicket)
 	fmt.Println("Get your ticket here to attend")
 
